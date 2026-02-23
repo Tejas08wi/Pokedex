@@ -11,7 +11,7 @@ It demonstrates:
 Built with **Next.js**, **tRPC**, **Prisma (SQLite)**, **React Query**, and **Material UI**.
 
 ---
-
+```
 # 🚀 1. Tech Stack
 
 - **Next.js** (Pages Router, TypeScript)
@@ -88,9 +88,7 @@ Make sure you have installed:
 - **Node.js** v18+
 - **npm**
 - **Git**
-
 ---
-
 # 🛠️ 4. Setup & Installation
 
 From the project root:
