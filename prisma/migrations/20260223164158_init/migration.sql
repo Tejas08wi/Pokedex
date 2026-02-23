@@ -1,9 +1,11 @@
 -- CreateTable
 CREATE TABLE "Pokemon" (
-    "id" INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,
+    "id" SERIAL NOT NULL,
     "name" TEXT NOT NULL,
     "typesCsv" TEXT NOT NULL,
-    "sprite" TEXT NOT NULL
+    "sprite" TEXT NOT NULL,
+
+    CONSTRAINT "Pokemon_pkey" PRIMARY KEY ("id")
 );
 
 -- CreateIndex
